@@ -20,7 +20,7 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
                     "  `lastName` VARCHAR(45) NOT NULL," +
                     "  `age` INT(3) NOT NULL," +
                     "  PRIMARY KEY (`id`))" +
-                    "DEFAULT CHARACTER SET = utf8;");
+                    "DEFA;");
         } catch (Exception ignored) {
         }
         }
